@@ -2,7 +2,7 @@
 
 Aplicação web interativa desenvolvida como projeto prático da **Sprint 4 (Ferramentas de Desenvolvimento de Software)** do curso de Análise de Dados da **TripleTen**. O projeto consiste na análise exploratória e visualização interativa de dados de anúncios de veículos usados nos Estados Unidos (`vehicles_us.csv`).
 
-🔗 **Acesse a aplicação online:** [Link do App no Render]([https://seu-app-aqui.onrender.com](https://sprint4-tripleten-j9oy.onrender.com/))
+🔗 **Acesse a aplicação online:** [Link do App no Render](https://sprint4-tripleten-j9oy.onrender.com/)
 
 ---
 
