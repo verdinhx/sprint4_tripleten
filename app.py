@@ -9,11 +9,17 @@ car_data = pd.read_csv('notebooks/vehicles_us_modify.csv')
 st.markdown("## Used car sales in usa")
 st.markdown("The data displayed on this page are car sales advertisements in the period from May 2018 to April 2019")
 
-# criando um botão
+# criando botões e checkbox
 colors_button = st.button('Sales by colors') 
 scatter_button = st.button('Price, Mileage and Conservation')
+see_df_checkbox = st.checkbox('I wanna see the dataframe')
 
-if colors_button: # se o botão for clicado
+# Definindo o checkbox
+if see_df_checkbox:
+    st.dataframe(car_data)
+
+# Definindo o botão de histograma
+if colors_button: 
     # escrever uma mensagem
     st.write('Creating a histogram for the colors of cars on sale ads')
     
@@ -38,3 +44,4 @@ if scatter_button:
                     title='Price vs. Mileage by State of Conservation'
                 )
     st.plotly_chart(fig, use_container_width=True)
+
