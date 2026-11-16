@@ -3,7 +3,7 @@ import pandas as pd
 import plotly_express as px
 
 # lendo os dados
-car_data = pd.read_csv('notebooks/vehicles_us_modify.csv)') 
+car_data = pd.read_csv('notebooks/vehicles_us_modify.csv') 
 
 # adicionando um cabeçalho
 st.markdown("## Used car sales in usa")
