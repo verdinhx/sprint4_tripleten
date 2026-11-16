@@ -29,8 +29,6 @@ if colors_button:
                         x='paint_color', 
                         title='Number of Vehicles by Color'
                     ).update_xaxes(categoryorder='total descending')
-
-    # exibir um gráfico Plotly interativo
     st.plotly_chart(fig, use_container_width=True)
 
 if scatter_button:
